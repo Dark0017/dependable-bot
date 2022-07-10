@@ -1,29 +1,11 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7942657&assignment_repo_type=AssignmentRepo)
 
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![LinkedIn][linkedin-shield]](https://linkedin.com/in/ayushman-s-007)
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/dyte-submissions/dyte-vit-2022-Dark0017">
+  <a href="https://github.com/Dark0017/dependable-bot">
     <img src="images/hero.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -32,15 +14,9 @@
   <p align="center">
     
 <h4 align="center">A CLI tool to check dependency version on repos, built on <a href="https://nodejs.org/en/" target="_blank">Nodejs</a>.</h4>
-    <br />
-    <a href="https://github.com/dyte-submissions/dyte-vit-2022-Dark0017"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/dyte-submissions/dyte-vit-2022-Dark0017">View Demo</a>
+    <a href="https://github.com/Dark0017/dependable-bot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/dyte-submissions/dyte-vit-2022-Dark0017/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/dyte-submissions/dyte-vit-2022-Dark0017/issues">Request Feature</a>
+    <a href="https://github.com/Dark0017/dependable-bot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -73,7 +49,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/dyte-submissions/dyte-vit-2022-Dark0017)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Dark0017/dependable-bot)
 
 - Feed CSV - Specify requirements - Check results
   - Accepts a CSV of with names of projects and Repo links
@@ -115,10 +91,10 @@
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/dyte-submissions/dyte-vit-2022-Dark0017
+$ git clone https://github.com/Dark0017/dependable-bot
 
 # Go into the repository
-$ cd dyte-vit-2022-Dark0017
+$ cd dependable-bot
 
 # Install dependencies
 $ npm install
@@ -131,7 +107,7 @@ $ depend-bot start
 > Checkout <a href="#CSV Specifications">CSV Specifications</a> to format your CSV file
 
 ### Usage Example
-[![Product Name Screen Shot][product-gif]](https://github.com/dyte-submissions/dyte-vit-2022-Dark0017)
+[![Product Name Screen Shot][product-gif]](https://github.com/Dark0017/dependable-bot)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -187,17 +163,17 @@ A sample of a valid CSV file is given below
 
 | name                    | repo                                             |
 | ----------------------- | ------------------------------------------------ |
-| dyte-react-sample-app   | https://github.com/dyte-in/react-sample-app/     |
-| dyte-js-sample-app      | https://github.com/dyte-in/javascript-sample-app |
-| dyte-sample-app-backend | https://github.com/dyte-in/backend-sample-app    |
+| dark-react-sample-app   | https://github.com/dark-in/react-sample-app/     |
+| dark-js-sample-app      | https://github.com/dark-in/javascript-sample-app |
+| dark-sample-app-backend | https://github.com/dark-in/backend-sample-app    |
 
 Sample output CSV
 
 | name                    | repo                                             | version | version_satisfied |
 | ----------------------- | ------------------------------------------------ | ------- | ----------------- |
-| dyte-react-sample-app   | https://github.com/dyte-in/react-sample-app/     | 0.24.0  | true              |
-| dyte-js-sample-app      | https://github.com/dyte-in/javascript-sample-app | 0.21.1  | false             |
-| dyte-sample-app-backend | https://github.com/dyte-in/backend-sample-app    | 0.23.0  | true              |
+| dark-react-sample-app   | https://github.com/dark-in/react-sample-app/     | 0.24.0  | true              |
+| dark-js-sample-app      | https://github.com/dark-in/javascript-sample-app | 0.21.1  | false             |
+| dark-sample-app-backend | https://github.com/dark-in/backend-sample-app    | 0.23.0  | true              |
 
 Sample output CSV with update option
 
@@ -205,9 +181,9 @@ Should give an output like:
 
 | name                    | repo                                             | version | version_satisfied | update_pr                                               |
 | ----------------------- | ------------------------------------------------ | ------- | ----------------- | ------------------------------------------------------- |
-| dyte-react-sample-app   | https://github.com/dyte-in/react-sample-app/     | 0.24.0  | true              |                                                         |
-| dyte-js-sample-app      | https://github.com/dyte-in/javascript-sample-app | 0.21.1  | false             | https://github.com/dyte-in/javascript-sample-app/pull/3 |
-| dyte-sample-app-backend | https://github.com/dyte-in/backend-sample-app    | 0.23.0  | true              |                                                         |
+| dark-react-sample-app   | https://github.com/dark-in/react-sample-app/     | 0.24.0  | true              |                                                         |
+| dark-js-sample-app      | https://github.com/dark-in/javascript-sample-app | 0.21.1  | false             | https://github.com/dark-in/javascript-sample-app/pull/3 |
+| dark-sample-app-backend | https://github.com/dark-in/backend-sample-app    | 0.23.0  | true              |                                                         |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -242,23 +218,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Ayushman Singh - [@Ayushma81703243](https://twitter.com/twitter_handle) - singh.ayush8827@gmail.com
 
-Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-Dark0017](https://github.com/dyte-submissions/dyte-vit-2022-Dark0017)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/dyte-submissions/dyte-vit-2022-Dark0017.svg?style=for-the-badge
-[contributors-url]: https://github.com/dyte-submissions/dyte-vit-2022-Dark0017/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/dyte-submissions/dyte-vit-2022-Dark0017.svg?style=for-the-badge
-[forks-url]: https://github.com/dyte-submissions/dyte-vit-2022-Dark0017/network/members
-[stars-shield]: https://img.shields.io/github/stars/dyte-submissions/dyte-vit-2022-Dark0017.svg?style=for-the-badge
-[stars-url]: https://github.com/dyte-submissions/dyte-vit-2022-Dark0017/stargazers
-[issues-shield]: https://img.shields.io/github/issues/dyte-submissions/dyte-vit-2022-Dark0017.svg?style=for-the-badge
-[issues-url]: https://github.com/dyte-submissions/dyte-vit-2022-Dark0017/issues
-[license-shield]: https://img.shields.io/github/license/dyte-submissions/dyte-vit-2022-Dark0017.svg?style=for-the-badge
-[license-url]: https://github.com/dyte-submissions/dyte-vit-2022-Dark0017/blob/master/LICENSE.txt
+
+[contributors-url]: https://github.com/Dark0017/dependable-bot/graphs/contributors
+[forks-url]: https://github.com/Dark0017/dependable-bot/network/members
+[stars-url]: https://github.com/Dark0017/dependable-bot/**stargazers**
+[issues-url]: https://github.com/Dark0017/dependable-bot/issues
+[license-url]: https://github.com/Dark0017/dependable-bot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ayushman-s-007
 [product-screenshot]: images/app.png
