@@ -2,7 +2,7 @@
   "name": "dependable-bot",
   "version": "1.0.2",
   "main": "index.js",
-  "repository": "https://github.com/dyte-submissions/dyte-vit-2022-Dark0017.git",
+  "repository": "https://github.com/Dark0017/dependable-bot",
   "author": "Dark0017",
   "license": "MIT",
   "dependencies": {
